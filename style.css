@@ -4,45 +4,62 @@ position: relative;
 width: 1920px;
 height: 1080px;
 
-.header, .main-section {
-  border: dashed 1px red;
-}
+justify-content: center;
+justify-content: start;
+justify-content: end;
+justify-content: flex-start;
+justify-content: flex-end;
+justify-content: left;
+justify-content: right;
 
-.header {
-  border: dashed 1px red;
-}
-
-.header {
-  margin:auto;
-  width: 80%
-  border: dashed 1px red;
+.head{
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  justify-content: space-around;
+  justify-content: space-evenly;
+  justify-content: stretch;
 }
 
 .header{
   display: flex;
   justify-content: space-between;
+  justify-content: center;
+  justify-content: space-around;
+  justify-content: space-evenly;
+  justify-content: stretch;
 }
 
 body {
   display: block;
   margin: 8px;
+  justify-content: space-between;
+  justify-content: center;
+  justify-content: space-around;
+  justify-content: space-evenly;
+  justify-content: stretch;
 }
 
-body {
-  margin:0;
-  border: dashed 1px red;
-}
 
 .main-section {
   margin: auto;
   width: 80%
-  border: dashed 1px red;
+  margin-right: 50%
+  justify-content: space-between;
+  justify-content: center;
+  justify-content: space-around;
+  justify-content: space-evenly;
+  justify-content: stretch;
 }
 
 .wrapper {
   margin: auto;
   width: 80%;
-  border: dashed 1px red;
+  justify-content: space-between;
+  justify-content: center;
+  justify-content: space-around;
+  justify-content: space-evenly;
+  justify-content: stretch;
 }
 
 p {
@@ -51,19 +68,23 @@ p {
   margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
+  justify-content: space-between;
+  justify-content: center;
+  justify-content: space-around;
+  justify-content: space-evenly;
+  justify-content: stretch;
 }
 
 .logo, .menu {
-  border: dashed 1px red;
+  justify-content: space-between;
+  justify-content: center;
+  justify-content: space-around;
+  justify-content: space-evenly;
+  justify-content: stretch;
 }
 
 .logo, .menu {
-  display: inline-block;
-  border: dashed 1px red;
-}
-
-.logo, .menu {
-  margin-right: 63%
+  margin-right: 83%
 }
 
 .logo {
@@ -76,7 +97,11 @@ div {
 
 .menu__item {
   padding: 0 13px;
-  border: dashed 1px red;
+  justify-content: space-between;
+  justify-content: center;
+  justify-content: space-around;
+  justify-content: space-evenly;
+  justify-content: stretch;
 }
 
 .menu__item {
