@@ -20,7 +20,6 @@ justify-content: right;
   justify-content: space-evenly;
   justify-content: stretch;
 }
-
 .header{
   display: flex;
   justify-content: space-between;
@@ -29,7 +28,6 @@ justify-content: right;
   justify-content: space-evenly;
   justify-content: stretch;
 }
-
 body {
   display: block;
   margin: 8px;
@@ -39,8 +37,6 @@ body {
   justify-content: space-evenly;
   justify-content: stretch;
 }
-
-
 .main-section {
   margin: auto;
   width: 80%
@@ -51,7 +47,6 @@ body {
   justify-content: space-evenly;
   justify-content: stretch;
 }
-
 .wrapper {
   margin: auto;
   width: 80%;
@@ -61,7 +56,6 @@ body {
   justify-content: space-evenly;
   justify-content: stretch;
 }
-
 p {
   display: block;
   margin-block-start: 1em;
@@ -74,7 +68,6 @@ p {
   justify-content: space-evenly;
   justify-content: stretch;
 }
-
 .logo, .menu {
   justify-content: space-between;
   justify-content: center;
@@ -82,19 +75,15 @@ p {
   justify-content: space-evenly;
   justify-content: stretch;
 }
-
 .logo, .menu {
   margin-right: 83%
 }
-
 .logo {
   padding: 40px 0;
 }
-
 div {
   display: block;
 }
-
 .menu__item {
   padding: 0 13px;
   justify-content: space-between;
@@ -103,7 +92,6 @@ div {
   justify-content: space-evenly;
   justify-content: stretch;
 }
-
 .menu__item {
   display: flex;
   align-items: center;
