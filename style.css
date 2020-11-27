@@ -7,6 +7,10 @@ body {
   width: 80%
 }
 
+.font-family {
+   'pt_serifregular'; 
+}
+
 .main-section {
   margin:auto;
   width: 80%
