@@ -5,8 +5,6 @@ body {
 .font-face {
   font-family:  'pt_serifregular';
   src: url('./fonts/ptserif-regular-webfont.woff') format('woff');
-  font-style: normal;
-  font-weight: normal;
 }
 
 .header {
