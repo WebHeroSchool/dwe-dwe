@@ -1,11 +1,10 @@
 body {
   margin: 0;
-  font-family: 'Roboto' cursive;
+  font-family: 'pt_serifbold';
 }
 
 .header {
   margin: auto;
-  font-family: 'pt_serifbold';
   width: 80%
 }
 
