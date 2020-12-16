@@ -36,11 +36,11 @@ body {
   border: dashed 1px red;
 }*/
 
-<img src="img/logo.svg">
+
 .logo.svg {
   padding: 40px 0;
   font-family: 'Roboto';
-  // font: bold 24px/31px pt_serif, Roboto;
+  font: bold 24px/31px pt_serif, Roboto;
   width: 190px;
   height: 35px;
   left: 196px;
