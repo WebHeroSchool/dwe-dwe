@@ -85,3 +85,26 @@ a:-webkit-any-link {
   height: 3px;
   background: #0056EC
 }
+
+.main-content {
+  padding-top: 100px;
+  width: 37%;
+}
+
+.main-content__title {
+margin: 0;
+margin-bottom: 41px;
+font: bold 50px/65px pt_serif, Roboto;
+}
+
+.main-content__subtitle {
+  margin-bottom: 41px;
+  font: 18px/21px Roboto;
+}
+
+.main {
+  padding-right: 63%;
+  background: url(img/mainframe.svg);
+  background-repeat: no-repeat;
+  background-position: top right;
+}
