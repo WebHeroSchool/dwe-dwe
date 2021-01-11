@@ -1,6 +1,14 @@
 body {
   margin: 0;
+  background: url(img/mainframe.svg);
 }
+
+img/mainframe.svg {
+  background: no-repeat;
+
+}
+
+
 .header {
   margin: auto;
   font-family: 'pt_serifbold_italic';
@@ -8,8 +16,9 @@ body {
 }
 .main-section {
   margin:auto;
-  width: 80%
+  width: 80%;
 }
+
 .wrapper {
   margin: auto;
   width: 80%
@@ -86,21 +95,6 @@ font: bold 50px/65px pt_serif, Roboto;
 .main-content__subtitle {
   margin-bottom: 41px;
   font: 18px/21px Roboto;
-}
-
-.main {
-  padding-right: 63%;
-  background-image: url(img/mainframe.svg);
-  background-repeat: no-repeat;
-  background-position: top right;
-
-}
-
-.mainframe {
-  background-position: top right;
-  background: no-repeat bottom right;
-  padding: 2px;
-  background-position: 25% 75%;
 }
 
 .first-block {
