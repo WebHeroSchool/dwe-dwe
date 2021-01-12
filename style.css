@@ -1,13 +1,22 @@
 body {
   margin: 0;
-  background: url(img/mainframe.svg);
+    background-image: url("img/mainframe.svg");
+    min-height: 400px;
+ background-repeat: no-repeat;
+ margin-bottom: 10px;
 }
 
-img/mainframe.svg {
-  background: no-repeat;
-
+.p {
+  background-position: top;
 }
 
+.r {
+  background-position: 25% 75%;
+}
+
+.n {
+    background-position: bottom 10px right 20px;
+}
 
 .header {
   margin: auto;
