@@ -4,6 +4,7 @@ body {
     min-height: 400px;
  background-repeat: no-repeat;
  margin-bottom: 10px;
+ background-position: center right;
 }
 
 .p {
