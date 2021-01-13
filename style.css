@@ -1,15 +1,15 @@
-
-
 body {
   margin: 0;
-    background-image: url("img/mainframe.svg");
-    min-height: 400px;
- background-repeat: no-repeat;
- margin-bottom: 10px;
- background-position: center right;
- background-size: 50%;
- background-position: bottom 20px right 20px;
+  background-image: url("img/mainframe.svg");
+min-height: 400px;
+background-repeat: no-repeat;
+margin-bottom: 10px;
+background-size: 50%;
+background-position: bottom -200px right 20px;
 }
+}
+
+
 
 .p {
   background-position: top;
