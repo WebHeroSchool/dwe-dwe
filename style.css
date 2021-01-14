@@ -10,7 +10,10 @@ body {
 }
 
 body {
-  width: 1920px; 
+  width: 1920px;
+  height: 1080px;
+  top: -1989px;
+  left: 4569px;
 }
 
 .p {
@@ -107,7 +110,7 @@ a:-webkit-any-link {
 .main-content__title {
 margin: 0;
 margin-bottom: 41px;
-font: bold 50px/65px pt_serif, Roboto;
+font: bold 80px/80px pt_serif;
 padding: 180px 0px 0px 0px; //
 }
 
@@ -121,4 +124,15 @@ padding: 180px 0px 0px 0px; //
 }
 .second-block {
   margin-top: 40px;
+}
+
+.main-content__button {
+display: inline-block;
+font: 14px/16px Roboto, arial, helvetica, sans-serif;
+color: #fff;
+background: #0056EC;
+padding: 14px 20px;
+text-decoration: none;
+border-radius: 4px;
+transition:transform 1.5s linear;
 }
