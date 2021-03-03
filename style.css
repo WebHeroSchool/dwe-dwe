@@ -95,17 +95,19 @@
  }
  .main {
    padding:74px 55% 100px 0px;
-   background: top right 0px no-repeat url(img/mainframe.svg);
+   background: top 39px right 0px no-repeat url(img/mainframe.svg);
  }
  .main__title{
-   margin: 0 0 25px 0;
-   font: bold 71px/88px pt_serif;
-   padding: 36px 0px 0px 0px;;
+   margin: -2px 0px 29px -13px;
+   font: bold 74px/86px pt_serif;
+   padding: 42px 0px 11px 6px;;
  }
  .main__subtitle{
-   margin:0 0 41px 0;
-   font: 500 21px/24px 'Roboto';
+   margin:-2px 0 46px -3px;
+   font: 21px/23px 'Roboto-Light';
  }
+
+
  .main__title-text_highlight{
    background: #ECF3FF;
  }
