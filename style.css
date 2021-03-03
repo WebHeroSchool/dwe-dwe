@@ -98,15 +98,15 @@
    background: top 39px right 0px no-repeat url(img/mainframe.svg);
  }
  .main__title{
-   margin: -2px 0px 29px -13px;
+   margin: -3px 0px 31px -13px;
    font: bold 74px/86px pt_serif;
-   padding: 42px 0px 11px 6px;;
+   padding: 44px 0px 8px 5px;;
  }
  .main__subtitle{
-   margin:-2px 0 46px -3px;
-   font: 21px/23px 'Roboto-Light';
+   margin:-2px 0 42px -3px;
+   font: 21px/25px 'Roboto-Light';
+   font-size: 204%;
  }
-
 
  .main__title-text_highlight{
    background: #ECF3FF;
