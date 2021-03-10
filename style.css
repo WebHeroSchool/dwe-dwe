@@ -113,10 +113,10 @@
  }
  .main__button{
    display: inline-block;
-   font: 18px/21px 'Roboto-Bold';
+   font: 18px/21px 'Roboto-Regular';
    color: #fff;
    background: #0056EC;
-   padding: 16px 15px;
+   padding: 16px 18px;
    text-decoration: none;
    border-radius: 4px;
    transition: opacity .5s;
