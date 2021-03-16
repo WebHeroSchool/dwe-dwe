@@ -130,3 +130,49 @@
    justify-content: space-between;
    margin-bottom: 100px;
 }
+
+@media (max-width: 1366px) {
+  .header {
+      margin-bottom: 79px;
+    }
+
+  .logo {
+      position: relative;
+      padding-left: 119px;
+  }
+    .logo__circle_color_dark-blue {
+    left: 75px;
+  }
+  .logo__circle_color_blue {
+      left: 85px;
+    }
+    .menu {
+      margin-right: 77px;
+  }
+  .menu__item {
+    margin-right: 23px;
+    font: 500 15px/102px 'Roboto';
+}
+.main {
+  padding:64px 54% 90px 75px;
+  background: top 5px right 74px no-repeat url(img/img1366.svg);
+}
+.main__title {
+    margin: -86px 1px 29px -85px;
+    font: bold 50px/64px pt_serif;
+    padding: 45px 22px 9px 86px;
+  }
+  .main__subtitle {
+      margin: 34px 50px 42px 0px;
+      font: 18px/20px 'Roboto-Regular';
+    }
+    .main__button {
+        font: 14px/10px 'Roboto-Regular';
+        padding: 16px 20px;
+      }
+}
+
+@@media (max-width 1024px) {
+
+
+}
