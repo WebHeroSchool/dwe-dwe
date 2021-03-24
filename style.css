@@ -126,12 +126,10 @@
    justify-content: space-between;
    margin-bottom: 100px;
 }
-
 @media (max-width: 1366px) {
   .header {
       margin-bottom: 79px;
     }
-
   .logo {
       position: relative;
       padding-left: 119px;
@@ -167,8 +165,7 @@
         padding: 16px 20px;
       }
 }
-
-@@media (max-width 1024px) {
+@media (max-width 1024px) {
   .logo {
      padding-left: 81px;
    }
@@ -181,7 +178,6 @@
    .menu {
      margin-right: 8px;
    }
-
    .main {
        padding: 64px 51% 90px 38px;
        background: top 5px right 12px no-repeat url(img/img1366.svg);
@@ -193,12 +189,10 @@
      margin: 35px 87px 41px 1px;
    }
 }
-
 @media (max-width: 768px) {
   .menu {
 display: none;
 }
-
 /* скрываем чекбокс */
 #menu__toggle {
   opacity: 0;
@@ -262,8 +256,6 @@ display: none;
 .menu__item:hover {
   background-color: #CFD8DC;
 }
-
-
 #menu__toggle:checked ~ .menu__btn > span {
   transform: rotate(45deg);
 }
@@ -279,7 +271,6 @@ display: none;
   visibility: visible;
   left: 0;
 }
-
 .menu__btn > span,
 .menu__btn > span::before,
 .menu__btn > span::after {
@@ -291,7 +282,6 @@ display: none;
 .menu__item {
   transition-duration: .25s;
 }
-
 .header {
 margin-bottom: 13px;
 }
@@ -311,14 +301,14 @@ background-size: 97%;
 background-position: top center;
 }
 .main__title {
-padding: 47px 22px 7px 86px;
+padding: 47px 22px 4px 86px;
 text-align: center;
 font: bold 30px/39px pt_serif, arial, helvetica, sans-serif;
 }
 
 .main__subtitle {
-  margin: 0px 5px 20px -10px;
-  text-align: center; 
+  margin: 0px 11px 23px -10px;
+  text-align: center;
 font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
 }
 .main__button {
