@@ -293,7 +293,7 @@
    flex-direction: column;
  }
  #checkbox_id:checked ~ .menu > .menu__item {
-   color: 000;
+   color: #000;
  }
  /*анимация бургера*/
  #checkbox_id:checked ~ label > .burger__menu > .burger__line{
