@@ -114,7 +114,7 @@
 .main__button:hover{
   opacity: .5;
 }
-.checkbox_id {
+#checkbox_id {
   opacity: 0;
     }
 
@@ -125,16 +125,20 @@
 
   .logo {
       position: relative;
-      padding-left: 119px;
+      padding-left: 120px;
+      padding-top: 31px;
   }
     .logo__circle_color_dark-blue {
-    left: 75px;
+    left: 77px;
+    top: 35%;
   }
   .logo__circle_color_blue {
       left: 85px;
+      top: 40%;
     }
     .menu {
-      margin-right: 77px;
+      margin-right: -132px;
+      margin-top: -29px;
   }
   .menu__item {
     margin-right: 23px;
@@ -142,10 +146,10 @@
 }
 .main {
   padding:64px 54% 90px 75px;
-  background: top 5px right 74px no-repeat url('img/img1366.svg');
+  background: top -23px right 74px no-repeat url('img/img1366.svg');
 }
 .main__title {
-    margin: -86px 1px 29px -85px;
+    margin: -115px 1px 29px -85px;
     font: bold 50px/64px pt_serif;
     padding: 45px 22px 9px 86px;
   }
@@ -157,12 +161,12 @@
         font: 14px/10px 'Roboto-Regular';
         padding: 16px 20px;
       }
-  .checkbox_id {
+  #checkbox_id {
     opacity: 0;
       }
 }
 
-@media (max-width 1024px) {
+@media (max-width: 1024px) {
   .logo {
      padding-left: 81px;
    }
@@ -175,9 +179,9 @@
    .menu {
      margin-right: 8px;
    }
-
    .main {
        padding: 64px 51% 90px 38px;
+       background: top 5px right 12px no-repeat url(img/img1366.svg);
        background: top 5px right 12px no-repeat url('img/img1366.svg');
    }
    .main__title {
