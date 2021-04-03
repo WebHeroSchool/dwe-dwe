@@ -298,11 +298,12 @@
  #checkbox_id:checked ~ .menu {
    display: flex;
    visibility: visible;
-   height: 785px;
+   height: 100vh;
    position: fixed;
    align-items: center;
-   justify-content: space-around;
    flex-direction: column;
+   justify-content: center;
+   margin-left: -12px;
  }
  #checkbox_id:checked ~ .menu > .menu__item {
    color: #000;
