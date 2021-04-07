@@ -147,7 +147,7 @@
   }
   .main {
   padding:281px 54% 145px 0px;
-  background: top 14px right -3px no-repeat url('img/img1366.svg');
+  background: top 19px right -2px no-repeat url('img/img1366.svg');
   background-size: 51%;
   }
   .main__title {
@@ -166,7 +166,8 @@
       font: 22px/20px 'Roboto-Regular';
     }
     .main__button {
-        font: 23px/23px 'Roboto-Regular';
+        display: inline-block;
+        font: 23px/23px 'Arial';
         padding: 16px 0px;
     }
 }
