@@ -86,7 +86,7 @@
   }
 .main {
   padding: 140px 63% 191px 0;
-  background: top right no-repeat url('img/img1366.svg');
+  background: top 22px right 21px no-repeat url('img/img1366.svg');
   background-position: right 56%;
 }
 .main__title {
@@ -118,6 +118,58 @@
 #checkbox_id {
   opacity: 0;
     }
+
+@media (max-width: 1922px) {
+  .header {
+      margin-bottom: 79px;
+    }
+  .logo {
+      position: relative;
+      padding-left: 41px;
+      padding-top: 31px;
+  }
+    .logo__circle_color_dark-blue {
+    left: -2px;
+    top: 35%;
+  }
+  .logo__circle_color_blue {
+      left: 5px;
+      top: 40%;
+    }
+    .menu {
+      align-items: center;
+      margin-right: -474px;
+      margin-top: -29px;
+  }
+  .menu__item {
+    margin-right: 27px;
+    font: 500 18px/102px 'Roboto';
+  }
+  .main {
+  padding:281px 54% 145px 0px;
+  background: top 14px right -3px no-repeat url('img/img1366.svg');
+  background-size: 51%;
+  }
+  .main__title {
+    margin: -196px 15px -29px -124px;
+    font: bold 66px/85px pt_serif;
+    padding: 16px
+             29px
+             67px
+             121px;
+  }
+  .main__subtitle {
+      margin: 5px
+              230px
+              46px
+              0px;
+      font: 22px/20px 'Roboto-Regular';
+    }
+    .main__button {
+        font: 23px/23px 'Roboto-Regular';
+        padding: 16px 0px;
+    }
+}
 
 @media (max-width: 1366px) {
   .header {
