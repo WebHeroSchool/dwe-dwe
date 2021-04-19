@@ -95,7 +95,7 @@
   color:#000;
 }
 .main__title-text_highlight{
-  background: #ECF3FF;
+  background: linear-gradient(180deg, rgba(255,255,255,1) 15%, #ecf3ff 15%);
 }
 .main__text {
   margin: 0 0 43px 0;
@@ -119,6 +119,13 @@
 #checkbox_id {
   opacity: 0;
     }
+
+.Group16.svg {
+  padding: 1px 63% 1px 0;
+  background: top 22px right 21px no-repeat url('img/Group16.svg');
+  background-position: right 156%;
+}
+
 
 @media (max-width: 1922px) {
   .header {
@@ -175,7 +182,7 @@
 
 @media (max-width: 1366px) {
   .header {
-      margin-bottom: 79px;
+      margin-bottom: 46px;
     }
   .logo {
       position: relative;
@@ -199,8 +206,8 @@
     font: 500 15px/102px 'Roboto';
   }
   .main {
-  padding:64px 54% 90px 75px;
-  background: top -23px right 74px no-repeat url('img/img1366.svg');
+  padding:98px 54% 90px 75px;
+  background: top 8px right 73px no-repeat url('img/img1366.svg');
   }
   .main__title {
     margin: -115px 1px 29px -85px;
@@ -218,7 +225,7 @@
       font: 18px/20px 'Roboto-Regular';
     }
     .main__button {
-        font: 14px/10px 'Roboto-Regular';
+        font: 14px/8px 'Roboto-Regular';
         padding: 16px 20px;
     }
 }
@@ -229,7 +236,7 @@
     width: 100%;
   }
   .header {
-    margin-bottom: 78px;
+    margin-bottom: 59px;
   }
   .logo {
      padding-left: 81px;
@@ -241,14 +248,14 @@
      left: 45px;
   }
   .menu {
-     margin-right: -188px;
+     margin-right: -173px;
   }
   .main {
-       padding: 64px
+       padding: 81px
                 51%
                 90px
                 38px;
-       background: top -24px right 21px no-repeat url('img/img1366.svg');
+       background: top -5px right 40px no-repeat url('img/img1366.svg');
    }
    .main__title {
        padding: 47px
@@ -311,7 +318,7 @@
    display: inline-block;
    position: relative;
    margin-bottom: 30px;
-   font: 500 30px/35px roboto, Arial, Helvetica, sans-serif;
+   font: 500 29px/31px roboto, Arial, Helvetica, sans-serif;
    text-decoration: none;
    transition: opacity.5s;
  }
@@ -357,7 +364,7 @@
    align-items: center;
    flex-direction: column;
    justify-content: center;
-   margin-left: -12px;
+   margin-left: -22px;
  }
  #checkbox_id:checked ~ .menu > .menu__item {
    color: #000;
@@ -397,18 +404,18 @@
  font: bold 30px/40px pt_serif, arial, helvetica, sans-serif;
   }
 .main__subtitle {
-  margin: 0px
-          29px
-          21px
-          30px;
-  font: 15px/20px 'Roboto-Regular';
+  margin: 1px
+          27px
+          23px
+          27px;
+  font: 16px/19px 'Roboto-Regular';
 }
  .main__text {
  margin-bottom: 25px;
  font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
   }
  .main__button {
- padding: 14px 19px;
- font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+ padding: 2px 20px;
+ font: 500 14px/40px Roboto, arial, helvetica, sans-serif;
   }
 }
