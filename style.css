@@ -120,12 +120,32 @@
   opacity: 0;
     }
 
-.Group16.svg {
-  padding: 1px 63% 1px 0;
-  background: top 22px right 21px no-repeat url('img/Group16.svg');
-  background-position: right 156%;
+.three_ellipse {
+display: flex;
+justify-content: center;
+position: absolute;
+left: 944px;
+top: 1032px;
+transform: translateY(-50%);
+width: 32px;
+height: 8px;
 }
 
+.three_ellipse1 {
+  background: #C8DBFB;
+  border-radius: 50%;
+  opacity: .7;
+}
+.three_ellipse2 {
+  background: #C8DBFB;
+  border-radius: 50%;
+  opacity: .7;
+}
+.three_ellipse3 {
+  background: #C8DBFB;
+  border-radius: 50%;
+  opacity: .7;
+}
 
 @media (max-width: 1922px) {
   .header {
