@@ -135,16 +135,22 @@ height: 8px;
   background: #C8DBFB;
   border-radius: 50%;
   opacity: .7;
+  width: 32px;
+  height: 8px;
 }
 .three_ellipse2 {
   background: #C8DBFB;
   border-radius: 50%;
   opacity: .7;
+  width: 32px;
+  height: 8px;
 }
 .three_ellipse3 {
   background: #C8DBFB;
   border-radius: 50%;
   opacity: .7;
+  width: 32px;
+  height: 8px;
 }
 
 @media (max-width: 1922px) {
