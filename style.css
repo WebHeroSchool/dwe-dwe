@@ -123,12 +123,9 @@
 .three_ellipse {
 display: flex;
 justify-content: center;
-position: absolute;
-left: 944px;
-top: 1032px;
-transform: translateY(-50%);
 width: 32px;
 height: 8px;
+padding: 120px 49% 0 49%;
 }
 
 .three_ellipse1 {
