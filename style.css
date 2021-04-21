@@ -386,6 +386,7 @@ padding: 120px 49% 0 49%;
    flex-direction: column;
    justify-content: center;
    margin-left: -22px;
+   letter-spacing: 3px; 
  }
  #checkbox_id:checked ~ .menu > .menu__item {
    color: #000;
@@ -413,21 +414,21 @@ padding: 120px 49% 0 49%;
   }
  .main {
    text-align: center;
-   padding: 105% 0px 0px 7px;
+   padding: 105% 8px 0px 7px;
    background-size: 90%;
    background-position: top center;
   }
  .main__title {
  padding: 49px
-          25px
+          14px
           1px
           107px;
  font: bold 30px/40px pt_serif, arial, helvetica, sans-serif;
   }
 .main__subtitle {
   margin: 1px
-          27px
-          23px
+          21px
+          24px
           27px;
   font: 16px/19px 'Roboto-Regular';
 }
@@ -436,7 +437,7 @@ padding: 120px 49% 0 49%;
  font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
   }
  .main__button {
- padding: 2px 20px;
+ padding: 2px 19px;
  font: 500 14px/40px Roboto, arial, helvetica, sans-serif;
   }
 }
