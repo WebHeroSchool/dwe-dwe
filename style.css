@@ -156,7 +156,7 @@ padding: 120px 49% 0 49%;
   width: 32px;
   height: 8px;
 }*/
-
+}
 @media (max-width: 1922px) {
   .header {
       margin-bottom: -86px;
@@ -210,35 +210,34 @@ padding: 120px 49% 0 49%;
     }
 }
 
-@media (max-width: 1366px),
-       (min-width: 750px) and (resolution: 200dpi) {
+@media (max-width: 1366px) {
   .header {
-      margin-bottom: 46px;
+      margin-bottom: -118px;
     }
   .logo {
       position: relative;
-      padding-left: 120px;
+      padding-left: 254px;
       padding-top: 31px;
   }
     .logo__circle_color_dark-blue {
-    left: 77px;
-    top: 35%;
+    left: 211px;
+    top: 15%;
   }
   .logo__circle_color_blue {
-      left: 85px;
-      top: 40%;
+      left: 219px;
+      top: 18%;
     }
     .menu {
-      margin-right: -132px;
-      margin-top: -29px;
+      margin-right: 117px;
+      margin-top: -191px;
   }
   .menu__item {
-    margin-right: 24px;
+    margin-right: 23px;
     font: 500 15px/102px 'Roboto';
   }
   .main {
-  padding:98px 54% 90px 75px;
-  background: top 8px right 73px no-repeat url('img/img1366.svg');
+  padding:96px 52% 90px 210px;
+  background: top 7px right 204px no-repeat url('img/img1366.svg');
   }
   .main__title {
     margin: -115px 1px 29px -85px;
@@ -250,18 +249,17 @@ padding: 120px 49% 0 49%;
   }
   .main__subtitle {
       margin: 34px
-              50px
+              53px
               42px
-              0px;
+              2px;
       font: 18px/20px 'Roboto-Regular';
     }
     .main__button {
         font: 14px/8px 'Roboto-Regular';
-        padding: 16px 20px;
+        padding: 17px 23px 16px 18px;
     }
 }
-@media (max-width:1024px),
-       (min-width: 500px) and (resolution: 200dpi){
+@media (max-width:1024px) {
   .wrapper {
     margin: auto;
     width: 100%;
@@ -306,6 +304,7 @@ padding: 120px 49% 0 49%;
    .main__button {
        font: 14px/8px 'Roboto-Regular';
        padding: 16px 25px 17px 16px;
+   }
 }
 
 @media(max-width:768px){
@@ -315,6 +314,9 @@ padding: 120px 49% 0 49%;
   .wrapper {
     margin: auto;
     width: 87%;
+ }
+ .header {
+   margin-bottom: -220px;
  }
  .logo {
    display: flex;
@@ -403,7 +405,7 @@ padding: 120px 49% 0 49%;
    align-items: center;
    flex-direction: column;
    justify-content: center;
-   margin-left: -22px;
+   margin-left: 22px;
  }
  #checkbox_id:checked ~ .menu > .menu__item {
    color: #000;
@@ -457,4 +459,14 @@ padding: 120px 49% 0 49%;
  padding: 2px 19px;
  font: 500 14px/40px Roboto, arial, helvetica, sans-serif;
   }
+  .three_ellipse {
+  display: flex;
+  justify-content: center;
+  width: 32px;
+  height: 8px;
+  padding: 120px 49% 0 49%;
+  }
+
+  .three_ellipse1 {
+display: block;
 }
