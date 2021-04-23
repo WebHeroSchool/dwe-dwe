@@ -161,11 +161,9 @@
   width: 32px;
   height: 8px;
 }
- }
 
 
 @media (max-width: 1366px) {
-
 .header {
   margin-bottom: -118px;
 }
@@ -216,7 +214,7 @@
   font: 14px/8px 'Roboto-Regular';
   padding: 17px 23px 16px 18px;
 }
- }
+
 
 
 @media (max-width:1024px) {
@@ -406,7 +404,7 @@
 }
 
 #checkbox_id {
-  //display: none;
+  display: none;
   opacity: 0;
 }
 
