@@ -142,21 +142,8 @@ padding: 62px 49% 0px 49%;
   width: 32px;
   height: 8px;
 }
-/*.three_ellipse2 {
-  background: #C8DBFB;
-  border-radius: 50%;
-  opacity: .7;
-  width: 32px;
-  height: 8px;
-}
-.three_ellipse3 {
-  background: #C8DBFB;
-  border-radius: 50%;
-  opacity: .7;
-  width: 32px;
-  height: 8px;
-}*/
-}
+ }
+
 
 @media (max-width: 1366px) {
   .header {
