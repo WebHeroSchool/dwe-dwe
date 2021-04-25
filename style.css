@@ -123,7 +123,7 @@
 }
 
 .main__subtitle {
-  margin: 4px 224px 44px -2px;
+  margin: 1px 224px 44px -2px;
   font: 22px/21px 'Roboto-Regular';
 }
 
@@ -196,7 +196,7 @@
 
   .main {
     padding:96px 52% 87px 210px;
-    background: top 7px right 204px no-repeat url('img/img1366.svg');
+    background: top 8px right 210px no-repeat url('img/img1366.svg');
   }
 
   .main__title {
@@ -213,6 +213,55 @@
   .main__button {
     font: 14px/8px 'Roboto-Regular';
     padding: 17px 23px 16px 18px;
+  }
+}
+
+
+@media (max-width:1290px) {
+  .wrapper {
+    margin: auto;
+    width: 86%;
+  }
+
+  .header {
+    margin-bottom: 34px;
+  }
+
+  .logo {
+    padding-left: 82px;
+  }
+
+  .logo__circle_color_dark-blue {
+    left: 38px;
+    top: 48%;
+  }
+
+  .logo__circle_color_blue {
+    left: 45px;
+    top: 55%;
+  }
+
+  .menu {
+    margin-right: -167px;
+    margin-top: 10px
+  }
+
+  .main {
+    padding: 146px 51% 85px 37px;
+    background: top 58px right 26px no-repeat url('img/img1366.svg');
+  }
+
+  .main__title {
+    padding: 46px 22px 7px 86px;
+  }
+
+  .main__subtitle {
+    margin: 35px 110px 41px 1px;
+  }
+
+  .main__button {
+    font: 14px/8px 'Roboto-Regular';
+    padding: 16px 25px 17px 16px;
   }
 }
 
@@ -242,13 +291,18 @@
 }
 
 .menu {
-  margin-right: -167px;
-  margin-top: 10px
+  margin-right: -157px;
+  margin-top: 7px
+}
+
+.menu__item {
+  margin-right: 23px;
+  font: 500 15px/20px 'Roboto';
 }
 
 .main {
   padding: 146px 51% 85px 37px;
-  background: top 58px right 26px no-repeat url('img/img1366.svg');
+  background: top 58px right 38px no-repeat url('img/img1366.svg');
 }
 
 .main__title {
@@ -266,7 +320,7 @@
 
 
 
-@media(max-width:768px) {
+@media(min-width:769px) {
 .body {
   margin: 0;
 }
