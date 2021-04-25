@@ -266,7 +266,7 @@
 }
 
 
-@media (max-width:1024px) {
+@media (max-width:1080px) {
 .wrapper {
   margin: auto;
   width: 100%;
@@ -320,7 +320,7 @@
 
 
 
-@media(min-width:769px) {
+@media(max-width:769px) {
 .body {
   margin: 0;
 }
@@ -503,5 +503,57 @@
   opacity: .7;
   width: 32px;
   height: 8px;
+}
+
+@media (min-width 769px) and (max-width 1023px) {
+  .wrapper {
+    margin: auto;
+    width: 100%;
+  }
+
+  .header {
+    margin-bottom: 34px;
+  }
+
+  .logo {
+    padding-left: 82px;
+  }
+
+  .logo__circle_color_dark-blue {
+    left: 38px;
+    top: 48%;
+  }
+
+  .logo__circle_color_blue {
+    left: 45px;
+    top: 55%;
+  }
+
+  .menu {
+    margin-right: -157px;
+    margin-top: 7px
+  }
+
+  .menu__item {
+    margin-right: 23px;
+    font: 500 15px/20px 'Roboto';
+  }
+
+  .main {
+    padding: 146px 51% 85px 37px;
+    background: top 58px right 38px no-repeat url('img/img1366.svg');
+  }
+
+  .main__title {
+    padding: 46px 22px 7px 86px;
+  }
+
+  .main__subtitle {
+    margin: 35px 87px 41px 1px;
+  }
+
+  .main__button {
+    font: 14px/8px 'Roboto-Regular';
+    padding: 16px 25px 17px 16px;
 }
  }
