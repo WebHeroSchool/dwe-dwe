@@ -100,8 +100,8 @@
 }
 
 .main {
-  padding: 284px 54% 207px 187px;
-  background: top 268px right 183px no-repeat url('img/img1366.svg');
+  padding: 285px 54% 207px 187px;
+  background: top 266px right 182px no-repeat url('img/img1366.svg');
   background-size: 41%;
 }
 
@@ -123,7 +123,7 @@
 }
 
 .main__subtitle {
-  margin: 1px 224px 45px 0;
+  margin: 1px 223px 45px 0;
   font: 22px/21px 'Roboto-Regular';
 }
 
@@ -149,17 +149,34 @@
 .three_ellipse {
   display: flex;
   justify-content: center;
-  width: 32px;
-  height: 8px;
-  padding: 62px 49% 0px 49%;
+  padding: 61px 49% 0px 49%;
 }
 
 .three_ellipse1 {
   background: #C8DBFB;
   border-radius: 50%;
-  opacity: .7;
-  width: 32px;
+  opacity: 0.7;
+  width: 8px;
   height: 8px;
+    margin-right: 4px;
+}
+
+.three_ellipse2 {
+  background: #C8DBFB;
+  border-radius: 50%;
+  opacity: 0.7;
+  width: 8px;
+  height: 8px;
+    margin-right: 4px;
+}
+
+.three_ellipse3 {
+  background: #C8DBFB;
+  border-radius: 50%;
+  opacity: 0.7;
+  width: 8px;
+  height: 8px;
+    margin-right: 4px;
 }
 
 
@@ -277,7 +294,7 @@
 @media (max-width:1080px) {
 .wrapper {
   margin: auto;
-  width: 100%;
+  width: 110%;
 }
 
 .header {
