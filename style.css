@@ -410,8 +410,8 @@
 .menu__item {
   display: inline-block;
   position: relative;
-  margin-bottom: 28px;
-  font: 500 29px/32px roboto, Arial, Helvetica, sans-serif;
+  margin-bottom: 29px;
+  font: 500 29px/31px roboto, Arial, Helvetica, sans-serif;
   text-decoration: none;
   transition: opacity.5s;
   letter-spacing: 0;
