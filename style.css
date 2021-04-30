@@ -294,7 +294,7 @@
 @media (max-width:1080px) {
 .wrapper {
   margin: auto;
-  width: 110%;
+  width: 100%;
 }
 
 .header {
