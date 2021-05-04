@@ -112,24 +112,9 @@
   padding: 15px 30px 70px 121px;
 }
 
-
-
 .main__title-text_highlight {
   background: linear-gradient(180deg, rgba(255,255,255,1) 15%, #ecf3ff 15%);
 }
-
-@keyframes main__title-text_highlight {
-  from {
-    transform: scale(0.85);
-  }
-  50% {
-    transform: scale(1.1);
-  }
-  to {
-    transform: scale(0.85)
-  }
-}
-
 
 .main__text {
   margin: 0 0 43px 0;
