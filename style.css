@@ -159,7 +159,6 @@
 }
   }
 
-
 #checkbox_id {
   opacity: 0;
 }
@@ -201,7 +200,7 @@
 @media (max-width: 1366px) {
   .header {
     margin-bottom: 84px;
-  }
+ }
 
   .logo {
     position: relative;
