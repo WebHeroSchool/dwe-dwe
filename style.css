@@ -199,17 +199,17 @@
 
 @media (max-width: 1366px) {
 .header {
-     margin-bottom: 84px;
+    margin-bottom: 84px;
 }
 
 .logo {
-     position: relative;
-     padding-left: 254px;
-     padding-top: 31px;
+    position: relative;
+    padding-left: 254px;
+    padding-top: 31px;
 }
 
 .logo__circle_color_dark-blue {
-     left: 211px;
+    left: 211px;
   top: 48%;
 }
 
