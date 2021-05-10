@@ -349,16 +349,16 @@
 
 .main__title {
   padding: 46px 22px 7px 86px;
-}
+ }
 
 .main__subtitle {
   margin: 35px 87px 41px 1px;
-}
+ }
 
 .main__button {
   font: 14px/8px 'Roboto-Regular';
   padding: 16px 25px 17px 16px;
-}
+ }
 
 .three_ellipse {
   display: flex;
@@ -366,14 +366,14 @@
   width: 32px;
   height: 8px;
   padding: 62px 48% 0px 49%;
-}
  }
+}
 
 
 @media(max-width:769px) {
 .body {
   margin: 0;
-}
+ }
 
 .wrapper {
   margin: auto;
