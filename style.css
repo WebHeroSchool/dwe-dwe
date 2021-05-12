@@ -235,7 +235,7 @@
 
   .main__title {
     margin: -115px 1px 32px -85px;
-    font: bold 50px/64px pt_serif;
+    font: bold 50px/64px pt_serif, arial, helvetica, sans-serif;
     padding: 45px 22px 9px 86px;
   }
 
@@ -301,7 +301,7 @@
   }
 
   .main__button {
-    font: 14px/8px 'Roboto-Regular';
+    font: 14px/8px 'Roboto-Regular', Arial, Helvetica, sans-serif;
     padding: 16px 25px 17px 16px;
   }
 }
@@ -468,7 +468,7 @@
     top: 0;
   }
 
-  .burger__menu::after{
+  .burger__menu::after {
     bottom: 0;
   }
 
