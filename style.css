@@ -114,7 +114,7 @@
 }
 
 .main__title-text_highlight {
-  background: linear-gradient(180deg, rgba(255,255,255,1) 15%, #ecf3ff 15%);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 1) 15%, #ecf3ff 15%);
 }
 
 .main__text {
@@ -144,7 +144,10 @@
 }
 
 @keyframes bounce {
-  0%, 20%, 60%, 100% {
+  0%,
+  20%,
+  60%,
+  100% {
     transform: translateY(0);
     transform: translateY(0);
   }
@@ -486,17 +489,20 @@
   #checkbox_id:checked ~ .menu > .menu__item {
     color: #000;
   }
+
   /*анимация бургера*/
 
   #checkbox_id:checked ~ label > .burger__menu > .burger__line {
     display: none;
   }
+
   /*верхняя*/
 
   #checkbox_id:checked ~ label > .burger__menu::before {
     top: 7px;
     transform: rotate(45deg);
   }
+
   /*нижняя*/
 
   #checkbox_id:checked ~ label > .burger__menu::after {
