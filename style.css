@@ -209,8 +209,8 @@
   }
 
   .logo__circle_color_dark-blue {
-    left: 211px;
-    top: 48%;
+      left: 211px;
+      top: 48%;
   }
 
   .logo__circle_color_blue {
@@ -229,7 +229,7 @@
   }
 
   .main {
-      padding:96px 52% 87px 209px;
+      padding: 96px 52% 87px 209px;
       background: top 8px right 210px no-repeat url('img/img1366.svg');
   }
 
@@ -411,7 +411,7 @@
       border-radius: 50%;
       opacity: .7;
       left: 0;
-     top: 40%;
+      top: 40%;
   }
 
   .menu {
