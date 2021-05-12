@@ -59,7 +59,7 @@
   font: 500 18px/24px roboto, Arial, Helvetica, sans-serif;
   color: #000;
   text-decoration: none;
-  transition: opacity.5s;
+  transition: opacity 0.5s;
 }
 
 .menu__item_active::after {
@@ -71,7 +71,7 @@
   height: 3px;
   background: #0056EC;
   opacity: 0;
-  transition: opacity .5s, width .5s;
+  transition: opacity 0.5s, width 0.5s;
 }
 
 .menu__item:hover {
@@ -90,7 +90,8 @@
   transition: opacity .5s;
 }
 
-.menu__item:hover:after,.menu__item_active::after{
+.menu__item:hover:after,
+.menu__item_active::after{
   opacity: 1;
   width: 100%;
 }
@@ -196,7 +197,6 @@
   margin-right: 4px;
 }
 
-
 @media (max-width: 1366px) {
   .header {
       margin-bottom: 84px;
@@ -247,7 +247,7 @@
   .main__button {
       font: 14px/8px 'Roboto-Regular';
       padding: 17px 26px 18px 17px;
- }
+  }
 
   .three_ellipse {
       display: flex;
@@ -403,7 +403,7 @@
   .logo__circle_color_dark-blue {
       background: #0056EC;
       border-radius: 50%;
-      opacity: .7;
+      opacity: 0.7;
   }
 
   .logo__circle_color_blue {
@@ -430,7 +430,7 @@
       margin-bottom: 29px;
       font: 500 29px/31px roboto, Arial, Helvetica, sans-serif;
       text-decoration: none;
-      transition: opacity.5s;
+      transition: opacity 0.5s;
       letter-spacing: 0;
   }
 
