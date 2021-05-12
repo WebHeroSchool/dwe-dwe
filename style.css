@@ -40,7 +40,7 @@
 .logo__circle_color_blue {
   background: #C8DBFB;
   border-radius: 50%;
-  opacity: .7;
+  opacity: 0.7;
   left: 196px;
   top: 54%;
 }
@@ -209,7 +209,7 @@
   }
 
   .logo__circle_color_dark-blue {
-      left: 211px;
+    left: 211px;
       top: 48%;
   }
 
