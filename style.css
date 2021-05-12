@@ -120,7 +120,7 @@
 .main__text {
   margin: 0 0 43px 0;
   font: 22px/26px roboto, Arial, Helvetica, sans-serif;
-  color:#000;
+  color: #000;
 }
 
 .main__subtitle {
@@ -398,13 +398,13 @@
   }
 
   .logo__circle_color_dark-blue {
-    background: #0056EC;
+    background: #0056ec;
     border-radius: 50%;
     opacity: 0.7;
   }
 
   .logo__circle_color_blue {
-    background: #C8DBFB;
+    background: #c8dbfb;
     border-radius: 50%;
     opacity: 0.7;
     left: 0;
@@ -486,18 +486,18 @@
   #checkbox_id:checked ~ .menu > .menu__item {
     color: #000;
   }
-    /*анимация бургера*/
+  /*анимация бургера*/
 
   #checkbox_id:checked ~ label > .burger__menu > .burger__line {
     display: none;
   }
-    /*верхняя*/
+  /*верхняя*/
 
   #checkbox_id:checked ~ label > .burger__menu::before {
     top: 7px;
     transform: rotate(45deg);
   }
-    /*нижняя*/
+  /*нижняя*/
 
   #checkbox_id:checked ~ label > .burger__menu::after {
     top: 7px;
