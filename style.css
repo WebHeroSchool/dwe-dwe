@@ -490,20 +490,20 @@
     color: #000;
   }
 
-  /*анимация бургера*/
+  /* анимация бургера */
 
   #checkbox_id:checked ~ label > .burger__menu > .burger__line {
     display: none;
   }
 
-  /*верхняя*/
+  /* верхняя */
 
   #checkbox_id:checked ~ label > .burger__menu::before {
     top: 7px;
     transform: rotate(45deg);
   }
 
-  /*нижняя*/
+  /* нижняя */
 
   #checkbox_id:checked ~ label > .burger__menu::after {
     top: 7px;
