@@ -75,7 +75,7 @@
 }
 
 .menu__item:hover {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .menu__item:hover:after {
