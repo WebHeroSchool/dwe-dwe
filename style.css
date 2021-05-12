@@ -354,7 +354,7 @@
   }
 
   .main__button {
-    font: 14px/8px 'Roboto-Regular';
+    font: 14px/8px 'Roboto-Regular', Arial, Helvetica, sans-serif;
     padding: 16px 25px 17px 16px;
   }
 
@@ -367,7 +367,7 @@
   }
 }
 
-@media(max-width: 769px) {
+@media (max-width: 769px) {
   .body {
     margin: 0;
   }
